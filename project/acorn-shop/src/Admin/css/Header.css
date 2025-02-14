@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.header-wrap {
+}
+
+.header {
+  height: 75px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.logo-wrap {
+  width: 20%;
+  padding-right: 30px;
+}
+
+.logo-text {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.search-bar-wrap {
+  width: 50%;
+  min-width: fit-content;
+}
+
+.search-bar {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.menu-bar {
+  width: 30%;
+  min-width: fit-content;
+  margin-left: auto; /* 오른쪽으로 밀어넣기 */
+  display: flex; /* 나란히 배치 */
+  justify-content: flex-start; /* 왼쪽 정렬 */
+}
+
+.menu-bar li {
+  width: 100%;
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+  list-style-type: none;
+  display: inline-block; /* li 요소를 나란히 배치 */
+}
+
+.nav-bar-wrap {
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
+.submenu {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+.submenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.submenu li {
+  padding: 8px 12px;
+}
+
+.submenu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.submenu li a:hover {
+  background-color: #f4f4f4;
+}

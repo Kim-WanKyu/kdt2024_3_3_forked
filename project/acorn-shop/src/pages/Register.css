@@ -1,0 +1,73 @@
+.form-wrap {
+    width: max-content;
+    margin: 50px auto;
+}
+.form-wrap h3 {
+    padding-bottom: 30px;
+}
+.register-form-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 0 100px;
+}
+.register-form-input > div {
+    width: 300px;
+    height: 50px;
+    min-width: max-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+}
+.register-form-input > div label {
+    text-align: start;
+}
+.register-form-input > div input {
+    height: 40px;
+}
+.register-form-input > div span {
+    text-align: end;
+    font-size: 0.8em;
+}
+.form-account select {
+    height: 40px;
+    width: 60px;
+}
+.form-account input {
+    width: 240px;
+}
+.form-addr {
+    padding-bottom: 160px;
+}
+.form-wrap input[type=submit] {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+
+.register-form-radio-group {
+    width: fit-content;
+    padding: 0 5px;
+}
+.register-form-radio-group .radio-label {
+    width: fit-content;
+    height: min-content;
+    display: flex;
+    padding-top: 5px;
+}
+.register-form-radio-group .radio-label span {
+    margin: auto;
+    padding-left: 5px;
+}
+.register-form-radio-group [type="radio"] {
+    vertical-align: middle;
+    appearance: none;
+    border: max(2px, 0.1em) solid gray;
+    border-radius: 50%;
+    width: 1.25em;
+    height: 1.25em;
+}
+.register-form-radio-group [type="radio"]:checked {
+    border: 0.4em solid black;
+}

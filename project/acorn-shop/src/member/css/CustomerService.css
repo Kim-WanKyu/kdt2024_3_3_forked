@@ -1,0 +1,68 @@
+
+.customer-service-wrap {
+    margin: 0 auto;
+}
+.customer-service-header {
+    display: flex;
+    justify-content:space-between;
+}
+.customer-service-header div {
+    margin: auto 0;
+}
+.customer-service-search {
+    width: 180px;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid black;
+    text-align: start;
+    padding-left: 10px;
+}
+.customer-service-btn {
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+    padding: 0 10px;
+}
+.customer-service-wrap hr {
+    display: block;
+}
+.customer-service-list-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.customer-service-list-head p {
+    width: 10%;
+    max-width: 10%;
+}
+.customer-service-list-head p:nth-child(2) {
+    width: 60%;
+    max-width: none;
+    text-align: start;
+}
+.customer-service-list-item {
+    padding: 10px 0;
+    display: flex;
+    justify-content:space-between;
+}
+.customer-service-list-item p {
+    width: 10%;
+    max-width: 10%;
+}
+.customer-service-list-item span {
+    font-size: 0.8em;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.customer-service-list-item p:nth-child(2) {
+    width: 60%;
+    max-width: none;
+    text-align: start;
+}
+
+
+.pagenaitor-wrap {
+    display: flex;
+    justify-content: center;
+}

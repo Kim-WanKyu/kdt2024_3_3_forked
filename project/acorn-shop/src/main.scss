@@ -1,0 +1,30 @@
+
+// $theme-colors: (
+//   'primary': rgb(174, 143, 94),
+//   'secondary': yellowgreen,
+//   'success': rgb(77, 181, 216),
+//   'info': rgb(99, 81, 236),
+//   'warning': rgb(245, 188, 82),
+//   'danger': rgb(255, 91, 181),
+//   'light': lightgray,
+//   'dark': gray,
+// );
+
+$secondary:	#C08552;
+$primary:	#895737;
+$success:	#DAB49D;
+$light: #F3E9DC;
+$dark: #5E3023;
+
+* {
+  font-family: 'Frseesentation-9Black', ft;
+}
+
+@font-face {
+  font-family: 'Frseesentation-9Black';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

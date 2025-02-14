@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-width: 800px;
+    font-family: '프리젠테이션', 'Freesentation-9Black', ft;
+}
+@font-face {
+    font-family: 'Frseesentation-9Black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

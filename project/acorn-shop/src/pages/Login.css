@@ -1,0 +1,25 @@
+.form-wrap {
+    width: max-content;
+    margin: 50px auto;
+}
+.form-wrap h3 {
+    padding-bottom: 30px;
+}
+
+.login-form-input {
+    
+}
+.login-form-input > div {
+    padding-bottom: 10px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.login-form-input > div label {
+    margin-right: 20px;
+}
+.login-form-input > div input {
+    height: 40px;
+    width: 250px;
+}
