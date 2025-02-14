@@ -8,7 +8,7 @@
 **주제 :** 위치기반 API 활용 웹 서비스 개발 <br>
 
 ## 목차
-<ul style="text-decoration:none">
+<ul style="list-style:none">
   <li><a href="#개발-환경">개발 환경</a></li>
   <li><a href="#데이터베이스-구조">데이터베이스 구조</a></li>
   <li><a href="#프로젝트-구조">프로젝트 구조</a></li>
