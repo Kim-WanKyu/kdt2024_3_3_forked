@@ -27,8 +27,13 @@
 
 ### 개발 환경
 
+![React](https://shields.io/badge/react-black?logo=react&style=for-the-badge)
+![Typescript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) 
+![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
 
 ## 데이터베이스 구조
 <img width="823" alt="스크린샷 2025-02-14 오후 12 16 17" src="https://github.com/user-attachments/assets/93d2de1d-01db-42b2-8157-c2cbebdf273e" />
