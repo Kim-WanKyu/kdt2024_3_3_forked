@@ -1,4 +1,3 @@
-
 import { getMemberData, postMemberData, putMemberData } from "./hello";
 import { auth } from "../firebase";
 import { CustomHTTPError } from "./skel";
@@ -16,7 +15,6 @@ interface MemberData {
   address: IAddrPost;
 }
 
-
 export interface MemberResponseData {
   memberId: string;
   email: string;
@@ -31,6 +29,15 @@ export interface MemberResponseData {
   memberAddresses: Array<IAddrResponse>;
 }
 
+export interface MemberUpdateData {
+  uid: string;
+  name: string;
+  phone: string;
+  bank: string;
+  account: string;
+  // address: IAddrPost;
+}
+
 export const createMember = async (
   uid: string,
   email: string,
@@ -40,7 +47,7 @@ export const createMember = async (
   account: string,
   address: IAddrPost,
   role: string
-): Promise<MemberData> => {
+): Promise<MemberResponseData> => {
   try {
     const data = await postMemberData({
       uid: uid,
@@ -88,10 +95,8 @@ export const updateMember = async (
   name: string,
   phone: string,
   bank: string,
-  account: string,
-  zipcode: string,
-  detailaddress: string
-): Promise<MemberData> => {
+  account: string
+): Promise<MemberResponseData> => {
   try {
     if (auth.currentUser) {
       await updateProfile(auth.currentUser, {
@@ -101,8 +106,6 @@ export const updateMember = async (
 
     const data = await putMemberData(uid, {
       name: name,
-      // "zipcode": zipcode,
-      // "address" : detailaddress, // 주소(위치, 지역)는 보류...
       phone: phone,
       bank: bank,
       account: account,
