@@ -46,10 +46,14 @@ kdt2024_3_3
 │         ├── 별첨2_상세기능명세서.docx
 │         ├── 완료보고서_3팀.hwpx
 │         └── 완료보고서_발표자료.pdf
-└── projects
-     ├── Readme.md
-     └── acorn-shop
-          └── ...
+└── project
+     ├── back-end
+     │    └── acornshop
+     │        └── ...
+     └── front-end
+          ├── Readme.md
+          └── acorn-shop
+              └── ...
 ```
 
 ### 팀원 소개 및 역할 분담
