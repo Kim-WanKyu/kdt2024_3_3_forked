@@ -1,0 +1,94 @@
+/* CategoryControl.css */
+
+.category-control-container {
+  margin: 50px;
+  display: flex;
+  height: 800px;
+  justify-content: space-between;
+  align-items: start;
+  padding: 20px;
+}
+
+.category-list {
+  width: 40%;
+  height: 100%;
+  overflow-y: auto;
+  border: 2px solid #c08552;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.category-item {
+  padding: 5px;
+  border-radius: 8px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.category-item-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dab49d;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #5e3024;
+  font-size: 24px;
+}
+/* delete-icon 호버 상태 */
+.delete-icon:hover {
+  transform: scale(1.2); /* 호버 시 아이콘 크기 확대 */
+  transition: all 0.3s ease; /* 애니메이션을 부드럽게 적용 */
+}
+
+/* 카테고리 추가 입력창 및 버튼 스타일 */
+.category-add {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.category-input {
+  border: 2px solid #dab49d;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.add-button {
+  background-color: #5e3024;
+  color: #f3e9dc;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #5e3024;
+}
+
+/* 스크롤바 색상 */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #c08552;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f3e9dc;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e0d5c7;
+}
