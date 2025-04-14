@@ -7,8 +7,7 @@
 **개발기간 :** 2025.01.14. ~ 2025.02.13. <br>
 **주제 :** 위치기반 API 활용 웹 서비스 개발 <br>
 
-## 실행 영상
-[![Video Label](http://img.youtube.com/vi/'Cmn-Ejl33nA'/0.jpg)](https://youtu.be/Cmn-Ejl33nA)
+[![실행 영상](http://img.youtube.com/vi/'Cmn-Ejl33nA'/0.jpg)](https://youtu.be/Cmn-Ejl33nA)
 
 ## 목차
 
